@@ -1,0 +1,64 @@
+.container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 3px solid #4caf50;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+  }
+  
+  .history {
+    font-size: 20px;
+    color: #aaa;
+  }
+  
+  .current {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  
+  .equals {
+    background-color: #4caf50;
+    color: white;
+  }
+  
